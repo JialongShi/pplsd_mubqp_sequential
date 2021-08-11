@@ -49,7 +49,7 @@ The details of mUBQP are described in:
 CMakeLists.txt has been provided for compiling the program by cmake on linux (such as Ubuntu), so make sure that cmake has been installed. Then you can compile the project by running
 
 ```
-cd < directory-of-this-program>
+cd <directory-of-this-program>
 cmake CMakeLists.txt
 make
 ```
