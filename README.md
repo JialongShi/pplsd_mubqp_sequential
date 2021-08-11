@@ -8,6 +8,8 @@
 
 In this program, a sequential version of PPLS/D (Parallel Pareto Local Search based on Decomposition) is implemented to optimize the multiobjective Unconstrained Binary Quadratic Programming (mUBQP) problem. It returns an approximation of the Pareto optimal solution set of the input mUBQP instance. The original PPLS/D is a parallel algorithm with multiple parallel processes. This implementation sequentialize the original PPLS/D by simply executing the processes one by one. Hence, this program does NOT require parallelization libraries like MPI. 
 
+** The MPI parallel version of this program is available at https://github.com/JialongShi/pplsd_mubqp
+
 The code is distributed for research use. The author reserves all rights to the code.
 
 Relevant literature:
