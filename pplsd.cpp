@@ -137,8 +137,8 @@ archive PPLSD(const problem &inst, const char* wvFilename, const archive &initia
 					solPrime.explored = false;
 					archiveA.updateArchive(solPrime);
 
-					//If the current solution 'sol' is not dominated by the newly added 'solPrime', 
-					//then adding 'solPrine' to archive will not remove 'sol', in other words, 'sol' survives the adding of 'solPrime'
+					//if the current solution 'sol' is dominated by the newly added 'solPrime', 
+					//then adding 'solPrine' to archive will remove 'sol', in other words, 'sol' does not survive.
 					if (solPrime.judgeDominate(sol)) {
 						surviveFlag = false;
 					}
