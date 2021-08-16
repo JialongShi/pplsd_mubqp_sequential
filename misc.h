@@ -18,8 +18,6 @@
 
 using namespace std;
 
-#define SOL_BUFFER_MTAG 1
-
 #if defined(__linux__) || defined(__linux)
 static struct tms  Old_Time;
 static struct tms  New_Time;
