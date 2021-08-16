@@ -5,7 +5,7 @@ archive PPLSD(const problem &inst, const char* wvFilename, const archive &initia
 	int m = inst.m;
 	int n = inst.n;
 	int neighborhoodSize = n;//here we use 1-bit-flip neighborhood, the neighborhood size = n
-	vector< vector<double> > neighborhoodRecord(neighborhoodSize);//the room to store neighboring solutions' fitness compared to the original solution
+	vector< vector<double> > neighborhoodRecord(neighborhoodSize);//the room to store neighboring solutions' fitness
 	archive emptyArchive;
 
 	// read weight vector file and get all information about my process
