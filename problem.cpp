@@ -3,15 +3,6 @@
 
 using namespace std;
 
-double dtrunc(double x)
-{
-	int k;
-
-	k = (int)x;
-	x = (double)k;
-	return x;
-}
-
 bool problem::readProblem(const char* filename)
 {
 	problemName = filename;
